@@ -2,6 +2,12 @@
 
 Pin the latest user prompt to the top of the OpenCode composer, and click it to open the same action menu you get when clicking a user message.
 
+## Why this exists
+
+An agent turn can run for minutes. You start a task, switch to another window, answer a message, come back — and the screen is full of tool calls, diffs, and streamed reasoning. The conversation header is long gone, so the first thing you have to do is scroll up to remember what you actually asked for.
+
+This plugin keeps that one line in view. The last prompt you sent stays pinned above the input, so when you return to the terminal you can tell at a glance which problem the agent has been answering, without scrolling back through the transcript.
+
 ```
 ┃  Refactor the auth middleware please
 ┃────────────────────────────────────────────
