@@ -1,0 +1,29 @@
+{
+  "name": "opencode-prompt-pin",
+  "version": "0.1.0",
+  "description": "Pin the latest user prompt above the OpenCode composer, with a message action menu on click",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "opentui"
+  ],
+  "exports": {
+    "./tui": "./tui.tsx"
+  },
+  "files": [
+    "tui.tsx",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@opentui/core": ">=0.4.0",
+    "@opentui/solid": ">=0.4.0",
+    "solid-js": ">=1.9.0"
+  },
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  }
+}
